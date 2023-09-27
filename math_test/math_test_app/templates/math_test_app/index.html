@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Math Test</title>
+</head>
+
+<body>
+    <h1>Math Test</h1>
+    <ul>
+        {% for test in tests %}
+        <li>{{ test.question }} (Answer: {{ test.answer }})</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
